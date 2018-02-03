@@ -36,15 +36,34 @@ for(loopingKedua = 21; loopingKedua >= 2; loopingKedua--){
 
 
 
-// Perulangan Ganjil Genap 1-100
+//3. Perulangan Ganjil Genap 1-100
 
 var counter = 0;
-for (var counter = 1; counter <=100; counter++){
-	if (counter % 2 === 0){
-		console.log(counter + " GENAP");
-	}
-	else{
-		console.log(counter + " GANJIL");
-	}
+
+for (counter = 1; counter <= 100; counter++) {
+  if (counter % 2 ===1) {
+    console.log(counter + ' GANJIL');
+  }
+  else {
+    console.log(counter + " GENAP")
+  }
+}
+
+for (counter = 1; counter <= 100; counter+=2) {
+  if ( counter % 3 ===0) {
+    console.log( counter + " kelipatan 3")
+  }
+}
+
+for (counter = 1; counter <= 100; counter+=5){
+  if (counter % 6===0){
+    console.log(counter + " kelipatan 6")
+  }
+}
+
+for (counter = 1; counter <= 100; counter+=9) {
+  if (counter % 10 ===0){
+    console.log(counter + " kelipatan 10")
+  }
 }
 
