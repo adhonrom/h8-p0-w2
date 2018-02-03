@@ -1,0 +1,37 @@
+1. Newton Second Law | ΣF = m x a
+
+    STORE "FORCE" without any value
+    STORE "MASS" with 600
+    STORE "ACCELERATION" with 2
+
+    CALCULATE "MASS" times "ACCELERATION"
+    SET "FORCE" value with calculation result
+
+2.  Tahun Kabisat
+
+    STORE YEAR with any value
+    IF YEAR MOD 4 EQUAL TO 0 AND YEAR MOD 100 NOT EQUAL WITH 0
+      DISPLAY "Year Kabisat"
+    ELSE IF YEAR MOD 400 EQUAL TO 0
+      DISPLAY "Year Kabisat"
+    Else
+      DISPLAY "Not Year Kabisat"
+
+3.  Laundry Day
+
+    STORE "Baju Siap dicuci" with 0
+
+    WHILE "Baju Siap dicuci" < 20
+      ADD "Bajua cucian" by 1
+
+    DISPLAY "Mesin Cuci dinyalakan"
+
+
+4.  Periksa Kuku
+
+    STORE "Kuku Panjang" equal with false
+    While "Periksa kuku" < 40
+      ADD by 1
+    IF "Kuku Panjang" equal with true
+      DO "PUNISHMENT"
+    ELSE DO "REWARD"
