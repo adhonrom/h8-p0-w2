@@ -25,9 +25,10 @@ while(loopingKedua >= 6) {
 
 //2. Melakukan Looping Menggunakan For
 
+console.log('LOOPING PERTAMA');
 var loopingPertama = 0;
 for(loopingPertama = 0; loopingPertama <= 19; loopingPertama++) {console.log(loopingPertama+1 + ' I love coding')}
-
+console.log('LOOPING KEDUA');
 var loopingKedua = 21;
 for(loopingKedua = 21; loopingKedua >= 2; loopingKedua--){
   console.log(loopingKedua-1 + ' I will become fullstack developer');
