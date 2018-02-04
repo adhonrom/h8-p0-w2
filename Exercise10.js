@@ -1,4 +1,4 @@
-// Bandingkan Bandingkan Angka
+// Bandingkan Angka
 
 function bandingkanAngka(angka1, angka2) {
    if(angka1 == angka2){
